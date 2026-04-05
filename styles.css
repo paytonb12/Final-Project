@@ -1,0 +1,24 @@
+body, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    
+}
