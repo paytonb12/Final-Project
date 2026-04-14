@@ -3,22 +3,116 @@ body, h1, h2, h3 {
     padding: 0;
 }
 
+h1 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 75px;
+     font-weight: 100;
+     text-align: center;
+    color: rgb(0, 87, 255);
+    padding: 25px;
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 48px;
+    font-weight:350;
+    padding: 20px;
+    
+}
+
 .site-nav-bar {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
+    background-color: rgb(255, 82, 165);
+    padding: 20px;
+    font-family: "Trispace", sans-serif;
+    
+}
+
+.button {
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: rgb(227, 255, 162);;
 }
 
 .wrapper {
-    max-width: 1000px;
+    max-width: 2000px;
     margin:0 auto;
 }
 
-h1 {
-    text-align: center;
+.flex-container{
+    background-color: rgb(227, 255, 162);
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
 }
 
 p {
     padding: 10px;
     
+    font-family: "Trispace", sans-serif;
+
+}
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.photo-column {
+  width: 100%;
+  height: auto;
+}
+
+.stardew-valley {
+    width: 600px;
+    height: auto;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.the-sims {
+    width: 600px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+.nav-photo {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: rgb(227, 255, 162);;
+    display: none;
+    list-style-type: none;
+   border-radius: 20px;
+    padding: 100px;
+    margin-top: 15px;
+}
+
+.has-dropdown:hover .dropdown{
+    display: block;
+    padding: 15px;
+}
+
+.inner-nav{
+    padding: 20px;
+    text-align: center;
 }
