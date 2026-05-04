@@ -3,8 +3,6 @@ body, h1, h2, h3 {
     padding: 0;
 }
 
-
-
 h1 {
     font-family: "Pixelify Sans", sans-serif;
     font-size: 75px;
@@ -14,25 +12,62 @@ h1 {
     padding: 25px;
 }
 
+.about-content {
+    margin-bottom: -16px;
+}
+
+.about {
+    background-color: rgb(227, 255, 162); 
+    color: black;
+}
+
+.credits {
+    background-color: white;
+    color: black;
+}
+
+
 h2 {
     font-family: "Outfit", sans-serif;
+    width: 1000px;
     font-size: 40px;
     font-weight:450;
-    padding: 20px;
+    padding: 10px;
+    background-color:rgb(255, 82, 165); 
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;  
     
 }
 
 .site-header {
     background-color: white;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .main-content {
 background-color: rgb(227, 255, 162);
 padding: 30px;
+margin-bottom: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
 
 }
 
-
+.caption {
+   margin-top: -24px;
+   margin-left: 20px;
+   margin-right: 20px;
+   background-color: rgb(0, 87, 255); 
+   padding: 10px;
+   color: white;
+   font-family: "Trispace", sans-serif;
+   font-size: 12px;
+   
+}
 
 .site-nav-bar {
     list-style-type: none;
@@ -59,8 +94,9 @@ padding: 30px;
     background-color: rgb(227, 255, 162);
 }
 
+
 .wrapper {
-    max-width: 1200px;
+    max-width: 1100px;
     margin:0 auto;
 }
 
@@ -93,7 +129,15 @@ padding: 30px;
 
 .photo-column {
     padding-top: 10px;
+    
 }
+.home-photo {
+    height: auto;
+    display: block;
+    width: 450px;
+    padding: 20px;
+}
+
 
 
 .flex-container{
@@ -104,16 +148,15 @@ padding: 30px;
 }
 
 html {
-    background-image: url(b5a0db80-eb3d-4f30-80de-f4d46b44f0c4.jpg);
+    background-image: url(Background-image.jpg);
+   
 }
-
 
 .hero {
 
     background-size: cover;
     min-width: 400px;
 }
-
 
 .color-hover {
     color: black
@@ -131,14 +174,11 @@ p {
 
 }
 
-
 .row {
     display: flex;
     justify-content: space-around;
     
 }
-
-
 
 .photos {
     width: 500px;
@@ -147,19 +187,13 @@ p {
     justify-content: center;
 }
 
-
-
 .game-landing {
     width: 300px;
     height: auto;
     padding: 20px;
 }
 
-.home-photo {
-    width: 450px;
-    height: auto;
-    padding: 20px;
-}
+
 
 .nav-photo {
     width: 300px;
@@ -195,6 +229,13 @@ p {
     
 }
 
-.image-credits {
-    background-color: white
+
+
+.ts4-block {
+    background-color:rgb(255, 82, 165); ;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 600px;
+    text-decoration: none;  
 }
